@@ -1,0 +1,80 @@
+.res{
+    font-weight: normal;
+    color: rgb(43, 63, 82);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+.big{
+    font-weight: bold;
+    color: rgb(231, 186, 156);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+.small{
+    font-weight: lighter;
+    color: rgb(80, 27, 3);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    
+}
+.green{
+    font-weight: bolder;
+    color: rgb(2, 21, 104);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-size: 17px;
+}
+.centerit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+.lcommon{
+    background-color:rgb(0, 0, 0) ;
+    border: solid 2px rgb(175, 0, 0);
+    position: absolute;
+}
+.header{
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 50px
+    z-index: 1;
+}
+.leftmenu{
+    top: 40px;
+    left: 5px;
+    width: 100px;
+    bottom: 64px;
+    z-index: 2;
+}
+
+.mainbody{
+    top: 40px;
+    left: 5px;
+    right: 5px;
+    bottom: 64px;
+}
+
+.rightmenu{
+    top: 40px;
+    width: 100px;
+    right:5px;
+    bottom: 64px;
+}
+
+.footer{
+    bottom: 5px;
+    right: 5px;
+    left: 5px;
+    height: 50px;
+    font-size: 8px;
+    color: black;
+    text-align: center;
+    position:fixed;
+}
